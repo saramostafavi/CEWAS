@@ -4,7 +4,7 @@ This code uses the existing [MetaXcan](https://github.com/hakyimlab/MetaXcan) pa
 ### Requirements
 The dependencies for CEWAS can be installed via [Anaconda](https://www.anaconda.com/products/individual) by running the following fommand from the `cewas/` directory:
 ```
-conda env -f "cewas_env.yml"
+conda env create -f "cewas_env.yml"
 ```
 The software help can then be accessed using:
 ```
