@@ -1,6 +1,6 @@
 #!/bin/bash
 
-python cewas.py --sum_stats="data/SCZ2019_refmt.txt" \
+python cewas.py --sum_stats="data/test_data/SCZ2019_chr22.txt" \
     --output="test_results.txt"\
     --mapping="data/test_data/ensemblHG19_chr22.tsv"\
     --cov_file_snp_fmt="data/test_data/ROSMAP_CEWAS_snp_methy_cov"\
